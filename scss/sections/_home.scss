@@ -1,0 +1,29 @@
+#home {
+  display: block;
+  font-family: 'Roboto Slab', serif;
+  font-size: 2rem;
+  border: 1px solid black;
+  @media (min-width: 1042px){
+    font-size: 4rem;
+    display: flex;
+  }
+
+  padding-top: 15%;
+
+  a {
+    color: gray;
+  }
+
+  button {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e7e7e7;
+    border: none;
+    :hover {
+      color: black;
+    }
+  }
+  @media (min-width: 1100px) {button {width: 500px;}}
+}
