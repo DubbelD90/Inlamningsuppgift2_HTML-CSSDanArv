@@ -2,13 +2,12 @@
   display: block;
   font-family: 'Roboto Slab', serif;
   font-size: 2rem;
-  border: 1px solid black;
   @media (min-width: 1042px){
     font-size: 4rem;
     display: flex;
   }
 
-  padding-top: 15%;
+  padding-top: 5%;
 
   a {
     color: gray;

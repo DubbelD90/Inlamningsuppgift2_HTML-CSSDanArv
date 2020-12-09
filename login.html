@@ -13,30 +13,21 @@
 <body>
 
   <div id="login">
-    <form action="">
-      <div class="container">
-        <div class="row justify-content-center">
-          <h1>Login</h1>
+    <form class="container">
+      <h1>Login</h1>
+      <div class="form-row justify-content-md-center">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Email</label>
+          <input type="email" class="form-control" id="inputEmail4">
         </div>
-        
-        <div class="row justify-content-md-center">
-
-          <div class="col-md-auto">
-            <label for="firstname"><b>Email</b></label>
-            <input type="text" placeholder="Enter your Emailaddress" name="firstname" id="firstname" required>
-          </div>
-
-          <div class="col-md-auto">
-            <label for="firstname"><b>Password</b></label>
-            <input type="text" placeholder="Enter your Password" name="firstname" id="firstname" required>
-          </div>
-
-        </div>
-
-        <div class="row justify-content-md-center">
-          <button type="button"> <a href="#">Login</a> </button>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Password</label>
+          <input type="password" class="form-control" id="inputPassword4">
         </div>
       </div>
+      
+      <button> <a href="index.html">Back </a></button>
+      <button> <a href="#">Login</a></button>
     </form>
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
